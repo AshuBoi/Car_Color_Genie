@@ -127,7 +127,7 @@ def segment_and_detect_colors(image_path):
     plt.show()
 
 # Path to your car image
-image_path = r"C:\Users\ashut\OneDrive\Pictures\pyhton projects\yellow lambo.jpg"
+image_path = r"your path here"
 segment_and_detect_colors(image_path)
 
 
