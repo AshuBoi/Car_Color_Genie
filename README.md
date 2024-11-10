@@ -14,7 +14,9 @@ This project uses Detectron2 and KMeans clustering to identify the dominant exte
 
    ```bash
    python -m venv car_color_env
+
    source car_color_env/bin/activate  # For Linux/macOS
+
    car_color_env\Scripts\activate   # For Windows
    ```
 
@@ -23,10 +25,15 @@ This project uses Detectron2 and KMeans clustering to identify the dominant exte
    Update pip and install dependencies:
 
    ```bash
+
    pip install --upgrade pip
+
    pip install torch torchvision torchaudio
+
    pip install opencv-python-headless matplotlib scikit-learn
+
    pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu116/torch1.10/index.html
+
    ```
 
 3. **Run the Script**
